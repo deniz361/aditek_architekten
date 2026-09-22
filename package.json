@@ -1,0 +1,16 @@
+{
+  "name": "aditek-architecture",
+  "version": "1.0.0",
+  "private": true,
+  "description": "A contemporary, dependency-free website for ADITEK Architektur.",
+  "type": "module",
+  "engines": {
+    "node": ">=20"
+  },
+  "scripts": {
+    "dev": "node server.mjs",
+    "start": "node server.mjs",
+    "build": "node scripts/build.mjs",
+    "preview": "node server.mjs --dir dist"
+  }
+}
